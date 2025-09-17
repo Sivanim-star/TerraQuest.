@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <section id="features" className="py-20 bg-gradient-earth">
 +    <section id="learn" className="py-20 bg-gradient-earth">
        <div className="container mx-auto px-4">
@@ -19,6 +20,9 @@
            {features.map((feature, index) => (
              <Card 
                key={index} 
+)
+)
+}
 -              className="p-6 hover:shadow-strong transition-all duration-300 group border-border/50 bg-card/80 backdrop-blur-sm"
 +              className="p-6 hover:shadow-strong hover:scale-105 transition-all duration-500 group border-border/50 bg-card/80 backdrop-blur-sm hover:bg-card/90 animate-fade-in"
 +              style={{ animationDelay: `${index * 150}ms` }}
@@ -56,6 +60,9 @@
            
            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
              {stats.map((stat, index) => (
+             )
+             )
+             }
 -              <div key={index} className="text-center">
 -                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-3">
 +              <div 

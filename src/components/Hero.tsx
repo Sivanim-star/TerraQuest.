@@ -1,8 +1,10 @@
 @@ .. @@
  const Hero = () => {
    const { user } = useAuth();
+ }
  
    return (
+   )
 -    <section className="relative min-h-screen bg-gradient-earth overflow-hidden">
 +    <section id="hero" className="relative min-h-screen bg-gradient-earth overflow-hidden">
        {/* Background Image */}
@@ -32,6 +34,8 @@
 @@ .. @@
              <div className="flex flex-col sm:flex-row gap-4">
                {user ? (
+               )
+               }
 -                <Button variant="hero" size="lg" className="text-lg px-8 py-6">
 +                <Button variant="hero" size="lg" className="text-lg px-8 py-6 hover:scale-105 hover:shadow-glow transition-all duration-300 relative overflow-hidden group">
 +                  <span className="relative z-10">
